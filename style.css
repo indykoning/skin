@@ -1,0 +1,163 @@
+/*
+Theme Name: some_skin
+Theme URI: 20502.hosts.ma-web.nl
+Author: Indy Koning
+Author URI: 20502.hosts.ma-web.nl
+Description: wordpress skin
+Version: 1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: someskin
+Tags: photoblogging, custom-header, custom-menu, featured-images, featured-image-header, threaded-comments, translation-ready, responsive-layout, one-column
+
+Magnus WordPress Theme, Copyright (C) 2013-2016, Hugo Baeta.
+Magnus is distributed under the terms of the GNU GPL license.
+
+Magnus is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
+Theme screenshot uses photography by Will Langenberg, from unsplash.com
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    background: white;
+    color: white;
+}
+
+#all {
+    width: 65%;
+    margin: 0 auto;
+}
+
+.nav ul {
+    list-style: none;
+    background-color: #000;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.nav li {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1em;
+    line-height: 30px;
+    text-align: left;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding-left: 15px;
+    border-bottom: 1px solid #888;
+    white-space: nowrap;
+}
+
+.nav a:hover {
+    background-color: #0000ff;
+}
+
+.nav a.active {
+    background-color: #000076;
+    color: #fff;
+    cursor: default;
+}
+
+.nav li li {
+    font-size: .8em;
+}
+
+.nav li {
+    width: 100px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.1em;
+    display: inline-block;
+    margin-right: -4px;
+}
+
+.nav a {
+    border-bottom: none;
+}
+
+.nav > ul > li {
+    text-align: center;
+}
+
+.nav > ul > li > a {
+    padding-left: 0;
+}
+
+.submenu li:hover {
+    color: #0A246A;
+}
+
+.content1 {
+    width: 1260px;
+    float: left;
+    background-color: #000;
+}
+
+.nav {
+    float: right;
+}
+
+
+/* Sub Menus */
+
+.nav li ul {
+    position: absolute;
+    display: none;
+    width: inherit;
+}
+
+.nav li:hover ul {
+    display: block;
+    background-color: #0000ff;
+}
+
+.nav li ul li {
+    display: block;
+}
+
+.sidebar {
+    width: 230px;
+    height: 1000px;
+    background-color: black;
+}
+
+.bottomPannel {
+    width: 1260px;
+    height: 50px;
+    background-color: black;
+}
+
+#validatie {
+    float: left;
+}
+
+#info {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 0.8em;
+}
+
+#info p:hover {
+    color: #0000ff;
+    cursor: pointer;
+}
+
+article {
+    /*    /position: absolute;*/
+    margin-top: -500px;
+    padding-left: 230px;
+    color: black;
+}
+
+article a {
+    text-decoration: none;
+    color: black;
+}
