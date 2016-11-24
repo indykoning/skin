@@ -125,13 +125,13 @@ body {
 
 .sidebar {
     width: 230px;
-    height: 1000px;
+    height: auto;
     background-color: black;
 }
 
 .bottomPannel {
     width: 1260px;
-    height: 50px;
+    height: auto;
     background-color: black;
 }
 

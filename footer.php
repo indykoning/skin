@@ -8,6 +8,8 @@
                 <img src="http://jigsaw.w3.org/css-validator/images/vcss-blue.gif" alt="Valide CSS">
             </a>
         </div>
+        <?php dynamic_sidebar('footer_widgets'); ?>
+
     </footer>
 </div>
 </div>
